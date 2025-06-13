@@ -21,7 +21,7 @@ To compile the program there is a file called makefile in charge of it:
 ```bash
 make
 ```
-## :ROCKET: Usage
+## 🚀 Usage
 
 Run the program with a file containing commands:
 
@@ -40,16 +40,16 @@ echo "Hola"
 
 Each command will be executed in the order listed in the file.
 
-## :WRENCH: Possible improvements
+## 🔧 Possible improvements
 
 - Add better memory control
 - Command history
 - Better control pipes
 
-## :PERSONWITHLAPTOP: Author
+## 👨‍💻 Author
 
 Daniel López-Antona Pesquera - Computer Engineering Student
 
-## :MAP: License
+## 📄 License
 
 This proyect is licensed under the MIT License

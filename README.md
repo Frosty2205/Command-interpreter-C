@@ -52,4 +52,4 @@ Daniel López-Antona Pesquera - Computer Engineering Student
 
 ## 📄 License
 
-This proyect is licensed under the MIT License
+This proyect is licensed under the [MIT License](https://github.com/Frosty2205/Command-interpreter-C/blob/main/License.md)

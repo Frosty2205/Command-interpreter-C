@@ -6,7 +6,6 @@
 #include <sys/wait.h>
 #include <unistd.h>
 
-// COmentario de mierda
 /* CONST VARS */
 const int max_line = 1024;
 const int max_commands = 10;
@@ -104,22 +103,6 @@ int procesar_linea(char *linea) {
     int args_count = tokenizar_linea(comandos[i], " \t\n", argvv, max_args);
     procesar_redirecciones(argvv);
     printf("%d", args_count);
-
-    //**********************************REMOVE
-    // THIS****************************************
-    printf("Comando = %s\n", argvv[0]);
-    for (int arg = 1; arg < max_args; arg++)
-      if (argvv[arg] != NULL)
-        printf("Args = %s\n", argvv[arg]);
-
-    printf("Background = %d\n", background);
-    if (filev[0] != NULL)
-      printf("Redir [IN] = %s\n", filev[0]);
-    if (filev[1] != NULL)
-      printf("Redir [OUT] = %s\n", filev[1]);
-    if (filev[2] != NULL)
-      printf("Redir [ERR] = %s\n", filev[2]);
-    /**********************************************************************************************/
   }
 
   return num_comandos;
